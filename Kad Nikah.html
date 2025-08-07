@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kad Kahwin Digital | Syah & Mimie</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Muzik Latar -->
+  <audio id="bg-music" autoplay loop>
+    <source src="lagu.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Navigasi -->
+  <nav class="nav">
+    <button onclick="showPage('page1')">Halaman Utama</button>
+    <button onclick="showPage('page2')">Jemputan Rasmi</button>
+    <button onclick="showPage('page3')">Doa & Info Majlis</button>
+    <button onclick="showPage('page4')">Lokasi & Kalendar</button>
+    <button onclick="showPage('page5')">Wadah Cinta</button>
+  </nav>
+
+  <!-- Halaman 1: Halaman Utama -->
+  <section id="page1" class="page active">
+    <div class="hero">
+      <img src="img_abe rul debat3_wide.jpg" alt="Syah dan Mimie" class="hero-img">
+    </div>
+    <header>
+      <h1>Syah & Mimie</h1>
+      <p>Raikan Cinta</p>
+      <p>
+        Kehadiran anda adalah restu,<br>
+        kehadiran anda adalah tanda kasih,<br>
+        sudi-sudikanlah hadir memeriahkan hari bahagia kami.
+      </p>
+    </header>
+  </section>
+
+  <!-- Halaman 2: Jemputan Rasmi -->
+  <section id="page2" class="page">
+    <div class="majlis">
+      <h2 class="majlis-title">Majlis Kesyukuran Perkahwinan</h2>
+      <p>Assalamualaikum Warahmatullahi Wabarakatuh,</p>
+      <p>
+        Dengan penuh kesyukuran ke hadrat Allah SWT,<br>
+        kami <strong>Azizi Bin Abdullah</strong> & <strong>Che Hafizam Binti Che Husain</strong>,<br>
+        dengan segala hormatnya menjemput<br>
+        <strong>YBhg. Dato'/Datin/Tuan/Puan/Encik/Cik</strong><br>
+        ke <strong>Majlis Kesyukuran Perkahwinan Putera Kami</strong>.
+      </p>
+      <p>
+        <strong>Tarikh:</strong> Isnin, 20 Oktober 2025<br>
+        <strong>Masa:</strong> 12:00 Tengah Hari – 4:00 Petang<br>
+        <strong>Tempat:</strong> Dewan Beemat Ngepek, Salor, Kota Bharu, Kelantan
+      </p>
+      <p>
+        Kehadiran dan restu anda amatlah kami hargai.<br>
+        Semoga dengan kehadiran tuan/puan menyerikan lagi majlis kami.
+      </p>
+      <p>Wassalam.</p>
+    </div>
+    <div id="jam-digital" class="jam-digital"></div>
+  </section>
+
+  <!-- Halaman 3: Doa & Info Majlis -->
+  <section id="page3" class="page">
+    <div class="doa-section">
+      <h3 class="arabic-text">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</h3>
+      <p>
+        Ya Allah,<br>
+        Dua hati telah bersatu dalam ikatan suci.<br>
+        Semoga cinta kalian tumbuh mekar seperti bunga di musim semi,<br>
+        kekal harum sepanjang usia.<br>
+        Semoga setiap langkah kalian dipenuhi keberkatan,<br>
+        dan setiap detik membawa kebahagiaan yang tiada tandingan.<br>
+        Aamiin ya rabbal ‘alamiin.
+      </p>
+
+      <div class="contact-info">
+        <p><strong>Hubungi:</strong></p>
+        <p>
+          <strong>Azizi:</strong> 011-21317741 |
+          <strong>Che Hafizam:</strong> 011-21132325 |
+          <strong>Fikri:</strong> 011-21967091
+        </p>
+      </div>
+
+      <div class="location-info">
+        <p><strong>Lokasi:</strong><br>DEWAN BEEMAT NGEPEK, SALOR</p>
+      </div>
+
+      <div class="appreciation-text">
+        <p>
+          Kami mengucapkan jutaan terima kasih atas kesudian Tuan/Puan/Saudara/i hadir ke majlis perkahwinan kami.<br>
+          Kehadiran anda menceriakan lagi hari bahagia kami.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Halaman 4: Lokasi & Kalendar -->
+  <section id="page4" class="page">
+    <div class="location">
+      <h2 class="majlis-title">Lokasi Majlis</h2>
+      <p>Dewan Beemat Ngepek, Salor, Kota Bharu, Kelantan</p>
+      <a href="https://www.google.com/maps?q=dewan+seri+cinta+shah+alam" target="_blank" class="btn">Lihat di Google Maps</a>
+    </div>
+
+    <div class="calendar">
+      <h2 class="majlis-title">Simpan Tarikh</h2>
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Majlis+Kahwin+Syah+%26+Mimie&details=Jemputan+Majlis+Perkahwinan&location=Dewan+Seri+Cinta+Shah+Alam&dates=20251012T030000Z/20251012T080000Z" target="_blank" class="btn">
+        Tambah ke Google Calendar
+      </a>
+    </div>
+  </section>
+
+  <!-- Halaman 5: Wadah Cinta -->
+  <section id="page5" class="page">
+    <div class="email">
+      <h2 class="majlis-title">Wadah Cinta</h2>
+      <p class="majlis-text">
+        Tinggalkan ucapan atau kehadiran anda kepada pengantin melalui emel:
+      </p>
+
+      <form class="email-form" action="mailto:shahrulfikri3481@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Nama Anda" required>
+        <input type="email" name="email" placeholder="Alamat Emel" required>
+        <textarea name="message" rows="5" placeholder="Ucapan / Pertanyaan" required></textarea>
+        <button type="submit" class="btn">Hantar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Skrip -->
+  <script>
+    function showPage(pageId) {
+      document.querySelectorAll('.page').forEach(page => page.classList.remove('active'));
+      document.getElementById(pageId).classList.add('active');
+    }
+
+    window.addEventListener('click', () => {
+      const music = document.getElementById('bg-music');
+      if (music.paused) music.play();
+    });
+
+    function kiraHari() {
+      const tarikhMajlis = new Date('2025-10-12T11:00:00');
+      const sekarang = new Date();
+      const bezaMasa = tarikhMajlis - sekarang;
+
+      const hari = Math.floor(bezaMasa / (1000 * 60 * 60 * 24));
+      const jam = Math.floor((bezaMasa / (1000 * 60 * 60)) % 24);
+      const minit = Math.floor((bezaMasa / (1000 * 60)) % 60);
+      const saat = Math.floor((bezaMasa / 1000) % 60);
+
+      document.getElementById('jam-digital').innerText =
+        `Majlis akan berlangsung dalam: ${hari} hari ${jam} jam ${minit} minit ${saat} saat`;
+
+      if (bezaMasa <= 0) {
+        document.getElementById('jam-digital').innerText = "Majlis sedang berlangsung!";
+        clearInterval(interval);
+      }
+    }
+
+    const interval = setInterval(kiraHari, 1000);
+    kiraHari();
+  </script>
+
+</body>
+</html>
